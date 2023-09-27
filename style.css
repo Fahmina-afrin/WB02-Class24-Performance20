@@ -1,0 +1,53 @@
+ .box1{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    margin-bottom: 10px;
+    opacity: 0.5;  
+ } 
+ .box2{
+   height: 100px;
+   width: 100px;
+   background-color: green;
+   opacity :1;
+}
+ul{
+   list-style-type: none;
+   margin: 5;
+   padding: 5;
+   overflow: hidden;
+   background-color: #161616;
+}
+li{
+   float: left;
+}
+li a{
+   display: block;
+   color: #fff;
+   padding: 15px 10px;
+   text-decoration: none;
+}
+li a:hover:not(.active){
+   background-color: midnightblue;
+}
+.active{
+   background-color: darkgreen;
+}
+img{
+   height: 300px;
+   width: 5000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
